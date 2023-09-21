@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/coded/c_programming/practicle/p1",
-      "program": "d:/coded/c_programming/practicle/p1/build/Debug/outDebug",
+      "cwd": "d:/coded/c_programming/practice",
+      "program": "d:/coded/c_programming/practice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

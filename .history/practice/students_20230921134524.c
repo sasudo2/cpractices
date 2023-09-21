@@ -23,11 +23,23 @@ int main(){
     fclose(fp);
     fp = fopen("life.dat", "rb");
     fread(read,  sizeof(student), 3, fp);
-    for(int i = 0; i<3; i++){
-        printf("name: %s, roll: %d, marks: %f", read[i].name, read[i].roll,
-         read[i].mark);
-
+    printf("employee to search: ");
+    char search[50];
+    gets(search);
+        
+        for(int i = 0; i<3; i++){
+ if(strcmp(read[i].name, search) == 0){
+            printf("name: %s, age: %d, salary: %lf", read[i].name, 
+            read[i].roll, read[i].mark);
+            return 0;
         }
+        }
+       
+    // for(int i = 0; i<3; i++){
+    //     printf("name: %s, roll: %d, marks: %f\n", read[i].name, read[i].roll,
+    //      read[i].mark);
+
+    //     }
     fclose(fp);
     return 0;
 
